@@ -1,3 +1,6 @@
+@use '../base/typography' as *;
+@use '../abstracts/' as *;
+
 *,
 *::after,
 *::before {
@@ -8,8 +11,12 @@
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
+  font-family: $font-primary;
+  color: $color-grey-dark-2;
+  font-weight: 300;
+  line-height: 1.6;
 }
