@@ -1,0 +1,11 @@
+@use '../abstracts/index' as *;
+
+.story {
+  &__pictures {
+    background-color: $color-primary;
+  }
+
+  &__content {
+    background-color: antiquewhite;
+  }
+}
