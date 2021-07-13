@@ -11,6 +11,10 @@
   gap: 6rem;
   // by default align-items stretch, need to set start because while decreasing the screen size it may create gap between contents.
   align-items: start;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 10rem 0;
+  }
 }
 
 .feature {
